@@ -2,10 +2,11 @@
   import TopBanner from "$lib/components/TopBanner.svelte";
   import Navbar from "$lib/components/Navbar.svelte";
   import Hero from "$lib/components/Hero.svelte";
-  import Intro from "$lib/components/Intro.svelte";
+  import CategoryNav from "$lib/components/CategoryNav.svelte";
   import Carousel from "$lib/components/Carousel.svelte";
   import ValueProp from "$lib/components/ValueProp.svelte";
   import ShowroomGrid from "$lib/components/ShowroomGrid.svelte";
+  import UpcomingEvents from "$lib/components/UpcomingEvents.svelte";
   import LifeWithBackyard from "$lib/components/LifeWithBackyard.svelte";
   import ProductConfigurator from "$lib/components/ProductConfigurator.svelte";
   import PeekInside from "$lib/components/PeekInside.svelte";
@@ -21,17 +22,18 @@
   <Navbar />
   <main>
     <Hero />
-    <Intro />
+    <CategoryNav />
     <Carousel />
     <ValueProp />
-    <ShowroomGrid />
-    <LifeWithBackyard />
     <ProductConfigurator />
-    <PeekInside />
+    <UpcomingEvents />
+    <ShowroomGrid />
     <Steps />
+    <LifeWithBackyard />
     <Features />
     <Illustration />
     <Sustainability />
+    <PeekInside />
   </main>
   <Footer />
 </div>

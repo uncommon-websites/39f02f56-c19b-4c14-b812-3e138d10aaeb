@@ -10,21 +10,21 @@
     />
   </div>
   
-  <div class="absolute inset-0 p-12 flex flex-col justify-between">
-    <div class="flex justify-between items-start text-white">
-      <h2 class="text-[50px] font-light tracking-tight leading-none">Learning Together</h2>
-      <div class="text-right">
-        <h3 class="text-[50px] font-light tracking-tight leading-none">Meet the Johnsons</h3>
-      </div>
-    </div>
-
-    <div class="flex justify-end">
-      <div class="bg-white rounded-lg p-1 flex items-center gap-2 pr-4 cursor-pointer hover:bg-gray-100 transition-colors">
-        <div class="w-10 h-10 rounded bg-primary-100 flex items-center justify-center text-primary-700 font-bold text-sm">
-          JF
-        </div>
-        <span class="text-xs font-medium">Read their story -></span>
-      </div>
+  <div class="absolute inset-0 p-12 flex flex-col justify-center items-center text-center">
+    <h2 class="text-[56px] font-light tracking-tight leading-tight text-white mb-6">
+      Join 10,000+ families<br>
+      discovering local learning
+    </h2>
+    <p class="text-white text-xl font-light mb-8 max-w-[600px]">
+      Book your first event today and connect with your community
+    </p>
+    <div class="flex gap-4">
+      <button class="px-8 py-4 bg-white hover:bg-gray-100 text-gray-900 rounded-lg text-sm font-medium transition-colors">
+        Browse all events
+      </button>
+      <button class="px-8 py-4 bg-primary-700 hover:bg-primary-800 text-white rounded-lg text-sm font-medium transition-colors border-2 border-white">
+        Become an organizer
+      </button>
     </div>
   </div>
 </section>

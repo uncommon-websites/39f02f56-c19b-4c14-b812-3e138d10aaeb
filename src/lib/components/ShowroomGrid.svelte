@@ -1,32 +1,42 @@
 <script lang="ts">
+  import EventCard from "$lib/components/EventCard.svelte";
+
+  const quickBrowseEvents = [
+    {
+      title: "Marine Biology Beach Exploration",
+      image: "/generated/image-diverse-group-of-homeschool-children-col-1765523666086-4.webp",
+      date: "Fri, Jan 24",
+      time: "9:00 AM - 12:00 PM",
+      location: "Clearwater Beach, FL",
+      price: "$35",
+      category: "Nature",
+      ageRange: "7-14"
+    },
+    {
+      title: "Young Entrepreneurs Workshop",
+      image: "/generated/image-parent-browsing-on-laptop-with-coffee-re-1765523671935-7.webp",
+      date: "Sat, Jan 25",
+      time: "1:00 PM - 4:00 PM",
+      location: "Orlando, FL",
+      price: "$45",
+      category: "Business",
+      spotsLeft: 2,
+      ageRange: "12-17"
+    }
+  ];
 </script>
 
 <section class="bg-[#f9f9f7] pb-24 px-6">
-  <div class="max-w-[1200px] mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-      <!-- Card 1 -->
-      <div class="relative h-[400px] rounded-2xl overflow-hidden group cursor-pointer">
-        <img 
-          src="/generated/image-parent-browsing-on-laptop-with-coffee-re-1765523671935-7.webp" 
-          alt="Browse events" 
-          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-        />
-        <div class="absolute inset-0 bg-black/30 p-8 flex flex-col justify-between">
-          <h3 class="text-white text-2xl font-light max-w-[250px]">Discover local educational events. <br>Browse now -></h3>
-        </div>
-      </div>
+  <div class="max-w-[1400px] mx-auto">
+    <div class="mb-12">
+      <h2 class="text-3xl font-light text-gray-900 mb-2">Quick browse</h2>
+      <p class="text-gray-500">More events happening soon</p>
+    </div>
 
-      <!-- Card 2 -->
-      <div class="relative h-[400px] rounded-2xl overflow-hidden group cursor-pointer">
-        <img 
-          src="/generated/image-teacher-or-educator-leading-an-engaging--1765523669974-6.webp" 
-          alt="Become organizer" 
-          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-        />
-        <div class="absolute inset-0 bg-black/30 p-8 flex flex-col justify-between">
-          <h3 class="text-white text-2xl font-light max-w-[300px]">Share your passion for education. <br>Become an organizer -></h3>
-        </div>
-      </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+      {#each quickBrowseEvents as event}
+        <EventCard {...event} />
+      {/each}
     </div>
 
     <!-- Testimonials -->
