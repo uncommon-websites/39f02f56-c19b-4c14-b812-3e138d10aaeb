@@ -6,23 +6,23 @@
     <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
       <!-- Left -->
       <div class="md:col-span-3 pt-2">
-        <p class="text-gray-500 text-lg font-light leading-tight">Small living,<br>supersized.</p>
+        <p class="text-gray-500 text-lg font-light leading-tight">Education<br>happens<br>everywhere.</p>
       </div>
 
       <!-- Center -->
       <div class="md:col-span-6 flex justify-center">
-        <h1 class="text-[180px] leading-none font-light tracking-tighter -mt-8">XL 10</h1>
+        <h1 class="text-[120px] leading-none font-light tracking-tighter -mt-8">Discover<br><span class="text-gray-400">Local</span><br>Learning</h1>
       </div>
 
       <!-- Right -->
       <div class="md:col-span-3 pt-4">
         <p class="text-gray-600 text-[15px] leading-relaxed mb-4">
-          Introducing Backyard XL 10.<br>
-          Two bedrooms, two baths.<br>
-          950 square feet.
+          Connect with vetted local<br>
+          educational events.<br>
+          Community-driven discovery.
         </p>
         <a href="#" class="text-[13px] font-medium text-gray-900 hover:text-gray-600 transition-colors flex items-center gap-1">
-          Learn more <span class="text-[10px]">></span>
+          Browse events <span class="text-[10px]">></span>
         </a>
       </div>
     </div>
@@ -31,8 +31,8 @@
   <!-- Hero Image -->
   <div class="w-full h-[600px] bg-gray-200 overflow-hidden relative">
     <img 
-      src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop" 
-      alt="Backyard XL 10 House" 
+      src="/generated/image-children-and-parents-at-an-educational-r-1765523657715-0.webp" 
+      alt="Children and parents at educational event" 
       class="w-full h-full object-cover"
     />
   </div>

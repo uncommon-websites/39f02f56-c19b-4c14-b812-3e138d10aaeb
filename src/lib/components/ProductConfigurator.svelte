@@ -1,19 +1,19 @@
 <script lang="ts">
-  let selectedColor = 'white';
+  let selectedCategory = 'stem';
 </script>
 
 <section class="bg-[#f9f9f7] py-24 px-6">
   <div class="max-w-[1200px] mx-auto text-center">
     <h2 class="text-[40px] font-light text-gray-900 mb-16">
-      Five sizes. <span class="text-gray-400">Tons of possibility.</span>
+      Every type of learning. <span class="text-gray-400">All in one place.</span>
     </h2>
 
     <div class="mb-8">
-      <h3 class="text-2xl font-normal mb-2">One bedroom</h3>
-      <p class="text-gray-500 text-sm">The one and only for everything.</p>
+      <h3 class="text-2xl font-normal mb-2">STEM & Robotics</h3>
+      <p class="text-gray-500 text-sm">Hands-on science, technology, engineering, and math.</p>
     </div>
 
-    <!-- 3D Model Placeholder -->
+    <!-- Event Image -->
     <div class="relative w-full h-[400px] bg-white rounded-xl mb-8 flex items-center justify-center overflow-hidden shadow-sm">
       <div class="absolute inset-0 flex items-center justify-between px-4">
         <button class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-gray-200">
@@ -23,36 +23,36 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
         </button>
       </div>
-      <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop" class="h-[80%] object-contain" alt="House Model" />
+      <img src="/generated/image-children-engaged-in-hands-on-stem-learni-1765523677869-10.webp" class="h-[80%] object-contain" alt="STEM Learning" />
     </div>
 
-    <!-- Controls -->
-    <div class="flex justify-center gap-4 mb-8">
-      <button class="w-8 h-8 rounded-full bg-[#dbeafe] border-2 border-blue-500 ring-2 ring-offset-2 ring-blue-200"></button>
-      <button class="w-8 h-8 rounded-full bg-[#f3f4f6]"></button>
-      <button class="w-8 h-8 rounded-full bg-[#374151]"></button>
-      <button class="w-8 h-8 rounded-full bg-[#4b5563]"></button>
+    <!-- Category Pills -->
+    <div class="flex justify-center gap-4 mb-8 flex-wrap">
+      <button class="px-4 py-2 rounded-full bg-primary-100 text-primary-700 border-2 border-primary-500 text-sm font-medium">STEM</button>
+      <button class="px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm font-medium hover:bg-gray-200">Arts</button>
+      <button class="px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm font-medium hover:bg-gray-200">Nature</button>
+      <button class="px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm font-medium hover:bg-gray-200">History</button>
     </div>
 
     <div class="flex justify-center gap-8 text-sm text-gray-600 mb-4 border-b border-gray-200 pb-4 inline-flex mx-auto w-auto px-12">
-      <span>540 sq. ft.</span>
-      <span>1 bedroom</span>
-      <span>1 bath</span>
+      <span>Ages 6-12</span>
+      <span>2 hours</span>
+      <span>Orlando, FL</span>
     </div>
 
     <p class="text-xs text-gray-500 mb-8">
-      Starting at <span class="font-bold text-gray-900">$170,000</span> plus installation.<br>
-      Financing options available. ⓘ
+      Example event: <span class="font-bold text-gray-900">Amazon Robotics Tour</span><br>
+      Most events range from free to $50 per child.
     </p>
 
     <div class="flex justify-center gap-4">
       <button class="px-6 py-3 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium transition-colors text-left">
-        <span class="block text-[10px] text-gray-500">Want to see more?</span>
-        <span class="text-blue-600">Explore the one bedroom</span>
+        <span class="block text-[10px] text-gray-500">Explore more</span>
+        <span class="text-primary-600">Browse STEM events</span>
       </button>
-      <button class="px-6 py-3 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium transition-colors flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-        Configure in 3D ->
+      <button class="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        Search all events ->
       </button>
     </div>
   </div>
